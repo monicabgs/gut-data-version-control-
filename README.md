@@ -1,4 +1,4 @@
-# gut-data-version-control-
+# gut-data-version-control- <br></p>
 
 The objective of this project is used dvc in ML and Data Science projects. For this we'll store large files in MinIO.<br></p>
 
@@ -78,7 +78,7 @@ wget https://dl.min.io/client/mc/release/linux-amd64/mc<br></p>
 chmod +x mc<br></p>
 
 **7. Generates TLS certificates to Minio service (http - https)**<br></p>
-cd ~
+cd ~<br></p>
 sudo apt instalar software -properties-common<br></p>
 sudo add-apt-repository universe<br></p> 
 sudo apt update<br></p>
