@@ -60,7 +60,7 @@ def main(repo_path):
 
     train_data, labels = load_data(train_csv_path)
 
-    sgd = SGDClassifier(max_iter=10)
+    sgd = SGDClassifier(max_iter=100)
 
     trained_model = sgd.fit(train_data, labels)
 
